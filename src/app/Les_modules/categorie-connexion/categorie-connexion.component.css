@@ -1,0 +1,160 @@
+
+
+/*Bloc de derrière*/
+.ctn{
+    margin: 30px 30%;
+
+}
+/*Div Entete*/
+.conEnt{
+    width: 500px;
+    height: auto;
+
+}
+
+.conEnt h1{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Verdana';
+    color: #183661;
+    text-transform: uppercase;
+}
+
+/* Div container*/
+.container{
+    justify-content: center;
+}
+table tr td{
+    margin: 10px;
+}
+input{
+    height: 30px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #183661; 
+}
+
+button{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    background-color:#183661;
+    font-weight: bold;
+    color:white;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #001;
+    text-transform: uppercase;
+    border-radius: 10px 10px 10px 10px;
+}
+.boutton{
+    text-align: center;
+}
+.Acompte{
+    text-align: center;
+}
+.Acompte a{
+    color:#183661;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+.boutton button a{
+    color: white;
+    text-decoration: none;
+}
+
+input:active{
+    background-color: #183661;
+    color: white;
+}
+
+.menu{
+    width: 500px;    
+}
+
+.menu ul {
+    display: flex;
+    padding: 10px 10px;
+    border-bottom: 1px solid #183661;
+}
+.menu ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 10px 10px;
+   
+}
+
+.menu ul li a{
+    color: #183661;
+    font-size: 12px;
+    font-family: "Verdana";
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.idPersonnel {
+    width: 90%;
+}
+.EmailTel{
+    width: 90%;
+}
+
+/* Responsive*/
+@media screen and (max-width: 1000px) {
+    body{
+        margin: 70px 200px;
+    }   
+    
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        margin: 70px 150px;
+    }   
+    
+}
+
+@media  (max-width: 700px) {
+    body{
+        margin: 70px 100px;
+    }   
+    .ctn{
+        margin: 15px 5%;
+    
+    }
+    .conEnt h1{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .idPersonnel {
+        width: 90%;
+    }
+    .EmailTel{
+        width: 90%;
+    }
+
+}
+
+@media  (max-width: 550px) {
+    body{
+        margin: 50px 70px;
+    }   
+    
+}
+
+@media screen and (max-width: 250px) {
+    body{
+        margin: 50px 70px;
+    }   
+    
+}
+
+@media screen and (max-width: 100px) {
+    body{
+        margin: 50px 70px;
+    }   
+    
+}
